@@ -1,0 +1,17 @@
+.container {
+  max-width: 1140px;
+}
+
+@media print {
+  body.bg-light {
+    background-color: #fff !important;
+  }
+  .container {
+    width: auto;
+    max-width: 100%;
+    padding: 0;
+  }
+  .resume-container > .my-5 {
+    margin: 0 !important;
+  }
+}
