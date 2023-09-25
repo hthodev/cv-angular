@@ -7,6 +7,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { LobbyComponent } from './lobby/lobby.component';
 import { InfoComponent } from './info/info.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { ProjectPersonalComponent } from './project-personal/project-personal.component';
+import { AvatarComponent } from './info/avatar/avatar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     SidebarComponent,
     LobbyComponent,
     InfoComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    ProjectPersonalComponent,
+    AvatarComponent
   ],
   imports: [
     BrowserModule,

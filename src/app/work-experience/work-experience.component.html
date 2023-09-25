@@ -12,8 +12,7 @@
               <div class="title-work-exp">
                 {{content.title}}
               </div>
-              <div class="content-work-exp">
-                {{content.content}}
+              <div class="content-work-exp" [innerHTML]="content.content">
               </div>
             </div>
         </div>
