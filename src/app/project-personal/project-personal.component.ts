@@ -4,7 +4,7 @@ import { projectPersonals } from 'src/data/dataRender';
 @Component({
   selector: 'app-project-personal',
   templateUrl: './project-personal.component.html',
-  styleUrls: ['./project-personal.component.css']
+  styleUrls: ['../css-common/common.css']
 })
 export class ProjectPersonalComponent {
   projectPersonals:any;

@@ -1,15 +1,16 @@
 import { Component } from '@angular/core';
-import { workingExperience } from 'src/data/dataRender';
+import { workExperiences } from 'src/data/dataRender';
+
 
 @Component({
   selector: 'app-work-experience',
   templateUrl: './work-experience.component.html',
-  styleUrls: ['./work-experience.component.css']
+  styleUrls: ['../css-common/common.css']
 })
 export class WorkExperienceComponent {
-  workingExp:any;
+  workExperiences:any;
 
   ngOnInit() {
-    this.workingExp = workingExperience
+    this.workExperiences = workExperiences
   }
 }

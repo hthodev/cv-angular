@@ -9,6 +9,9 @@ import { InfoComponent } from './info/info.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { ProjectPersonalComponent } from './project-personal/project-personal.component';
 import { AvatarComponent } from './info/avatar/avatar.component';
+import { PracticalProjectComponent } from './practical-project/practical-project.component';
+import { AwardComponent } from './award/award.component';
+import { HobbieComponent } from './hobbie/hobbie.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { AvatarComponent } from './info/avatar/avatar.component';
     InfoComponent,
     WorkExperienceComponent,
     ProjectPersonalComponent,
-    AvatarComponent
+    AvatarComponent,
+    PracticalProjectComponent,
+    AwardComponent,
+    HobbieComponent
   ],
   imports: [
     BrowserModule,
