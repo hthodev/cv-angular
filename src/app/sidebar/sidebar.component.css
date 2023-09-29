@@ -22,3 +22,21 @@
   color: inherit;
   opacity: 1;
 }
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+#scrollToTopButton:hover {
+  background-color: #0056b3;
+}

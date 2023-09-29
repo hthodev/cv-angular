@@ -50,11 +50,43 @@ export const projectPersonals = [
       },
       {
         title: 'Link to project',
-        content: `- link code: <a href='https://github.com/hthodev/timesheet'> GitHub </a>
-                  <p>- link demo: <a href='http://timesheet.id.vn'> Web demo </a></p>`
+        content: `- link code: <a href='https://github.com/hthodev/timesheet' target="_blank"> GitHub </a>
+                  <p>- link demo: <a href='http://timesheet.id.vn' target="_blank"> Web demo </a> <p>- account: admin/123qwe </p></p>`
       },
     ]
   },
+  {
+    title: 'Project book to schedule a Medical Examine',
+    timeline: '09/2020 - 12/2020',
+    contents: [
+      {
+        title: 'Description',
+        content: `- The project aims to eliminate the traditional form of medical examination having to wait in line for hours
+                  <p>- Be proactive about the time of the examiner and the specialist </p>`
+      },
+      {
+        title: 'Feature',
+        content: `- Change language vie-eng with redux
+                  <p>- Sign in, sign up, update info</p>
+                  <p>- New registration verification</p>
+                  <p>- View doctor info, doctor’s schedule, online consultation from a doctor, book to a schedule medical examine, v.v</p>` 
+      },
+      {
+        title: 'Technology used',
+        content: `<b>+ Front-end</b>
+                  <p>- CRUD as axios</p>
+                  <p>- Validate</p>
+                  <p>- Redux-core, connect react to redux</p>
+                  <p>- Reactstrap, toast, scss, fontawesome, v.v</p>
+                  <b>+ Back-end</b>
+                  <p>- Sequelize</p>
+                  <p>- ExpressJS, JWT, Validator, NodeMailer</p>
+                  <p>- MySQL</p>`
+      },
+    ]
+  },
+  `<p>- In addition, there are other projects such as Download Game Website, Payment Nodejs, ... in my GitHub account at
+  link: <a href="https://github.com/hthodev" target="_blank"> GitHub </a> </p>`
 ]
 
 export const workExperiences = [
@@ -91,3 +123,10 @@ export const hobbies = `
 <p>- Like to have fun communicating with people around</p>
 <p>- Playing League of Legends</p>
   `
+
+export const summaries = 
+`
+  - I am an experienced back-end Node.js developer with over 9 months of hands-on expertise. 
+  <p>- My short-term goal is to become a Junior Developer and continue honing my technical skills. </p>
+  <p>- In the long run, I aspire to transition into a managerial role, enabling me to engage directly with clients on project discussions. Additionally, I have a strong desire to join an international team, fostering cross-cultural collaboration and expanding my horizons. My passion for coding, problem-solving abilities, and dedication to continuous learning drive me to pursue excellence in the field of software development. I look forward to embracing new challenges and opportunities in my journey toward professional growth and global collaboration.
+`

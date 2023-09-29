@@ -12,6 +12,7 @@ import { AvatarComponent } from './info/avatar/avatar.component';
 import { PracticalProjectComponent } from './practical-project/practical-project.component';
 import { AwardComponent } from './award/award.component';
 import { HobbieComponent } from './hobbie/hobbie.component';
+import { SummaryComponent } from './summary/summary.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HobbieComponent } from './hobbie/hobbie.component';
     AvatarComponent,
     PracticalProjectComponent,
     AwardComponent,
-    HobbieComponent
+    HobbieComponent,
+    SummaryComponent
   ],
   imports: [
     BrowserModule,

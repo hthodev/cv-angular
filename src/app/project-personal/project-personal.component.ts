@@ -8,8 +8,10 @@ import { projectPersonals } from 'src/data/dataRender';
 })
 export class ProjectPersonalComponent {
   projectPersonals:any;
+  moreInfo: any;
 
   ngOnInit() {
-    this.projectPersonals = projectPersonals
+    this.projectPersonals = projectPersonals.filter(item => typeof item !== 'string');
+    this.moreInfo = projectPersonals.filter(item => typeof item === 'string');
   }
 }

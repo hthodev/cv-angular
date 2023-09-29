@@ -18,5 +18,8 @@
           </div>
         </div>
       </div>
+      <div *ngIf="moreInfo" class="project-more">
+        <p [innerHTML]="moreInfo"> </p>
+      </div>
     </div>
   </div>
