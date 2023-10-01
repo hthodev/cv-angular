@@ -64,13 +64,13 @@
   .timeline-head {
     margin-left: -14%;
   }
-  #myBtn {
+  .scroll-up {
     bottom: 2% !important;
-    right: 15% !important;
+    right: -80px !important;
     font-size: 200% !important;
   }
   
-  #myBtn:hover {
+  .scroll-up:hover {
     color: red
   } 
 }
