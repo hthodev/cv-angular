@@ -14,6 +14,28 @@
   border: 5px solid;
   z-index: 2;
 }
+.resume-container {
+  width: 100%;
+}
+.scroll-up {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: -420px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);  
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  font-size: 300%;
+}
+
+.scroll-up {
+  color: red
+} 
 
 .timeline-body {
   border-left: 2px solid #e6e9ed;
@@ -26,6 +48,33 @@
 .timeline-card-info:before {
   border-color: var(--bs-info);
 }
+
+@media screen and (max-width: 414px) {
+  .timeline-body {
+    width: 120%;
+    margin-left: -14%;
+  }
+  .title-work-exp {
+    width: 45% !important;
+    min-width: 40%;
+  }
+  .content-work-exp {
+    width: 100% !important;
+  }
+  .timeline-head {
+    margin-left: -14%;
+  }
+  #myBtn {
+    bottom: 2% !important;
+    right: 15% !important;
+    font-size: 200% !important;
+  }
+  
+  #myBtn:hover {
+    color: red
+  } 
+}
+
 
 .timeline-card-secondary:before {
   border-color: var(--bs-secondary);

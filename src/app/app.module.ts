@@ -13,6 +13,7 @@ import { PracticalProjectComponent } from './practical-project/practical-project
 import { AwardComponent } from './award/award.component';
 import { HobbieComponent } from './hobbie/hobbie.component';
 import { SummaryComponent } from './summary/summary.component';
+import { ScrollUpComponent } from './scroll-up/scroll-up.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SummaryComponent } from './summary/summary.component';
     PracticalProjectComponent,
     AwardComponent,
     HobbieComponent,
-    SummaryComponent
+    SummaryComponent,
+    ScrollUpComponent
   ],
   imports: [
     BrowserModule,

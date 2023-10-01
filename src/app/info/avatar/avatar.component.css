@@ -9,6 +9,8 @@
     align-self: auto;
 }
 
+
+
 .avatar:before {
 	display: inline-block;
 	position: absolute;
