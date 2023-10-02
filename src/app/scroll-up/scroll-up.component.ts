@@ -19,8 +19,6 @@ export class ScrollUpComponent implements AfterViewInit {
       if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         mybutton.style.display = "block";
       } else {
-        console.log('none');
-        
         mybutton.style.display = "none";
       }
     }

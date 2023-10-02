@@ -14,9 +14,7 @@ export class SidebarComponent implements OnInit {
     // Sử dụng kiểu ép kiểu để TypeScript biết bạn đang sử dụng document
     const navbar = document.getElementById("nav") as HTMLElement;
 
-    if (navbar) {
-      console.log("hi");
-      
+    if (navbar) {      
       var prevScrollpos = window.pageYOffset;
       window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;

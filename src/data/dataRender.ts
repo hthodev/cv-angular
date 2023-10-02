@@ -130,3 +130,15 @@ export const summaries =
   <p>- My short-term goal is to become a Junior Developer and continue honing my technical skills. </p>
   <p>- In the long run, I aspire to transition into a managerial role, enabling me to engage directly with clients on project discussions. Additionally, I have a strong desire to join an international team, fostering cross-cultural collaboration and expanding my horizons. My passion for coding, problem-solving abilities, and dedication to continuous learning drive me to pursue excellence in the field of software development. I look forward to embracing new challenges and opportunities in my journey toward professional growth and global collaboration.
 `
+
+export const info = {
+  position: 'Back-end Developer',
+  age: 22,
+  email: 'thienthotran.it@gmail.com',
+  subject: 'mailto:thienthotran.it@gmail.com?subject=Hi, Welcome to me!',
+  facebook: 'Thien Tho Tran',
+  linkFacebook: 'http://facebook.com/thientho.it',
+  phone: '+84775589593',
+  address: 'Lien Chieu - Da Nang - Quang Nam',
+  education: 'Su Pham University - Da Nang University',
+}

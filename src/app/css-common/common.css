@@ -66,8 +66,8 @@
   }
   .scroll-up {
     bottom: 2% !important;
-    right: -80px !important;
-    font-size: 200% !important;
+    right: -125px !important; 
+      font-size: 200% !important;
   }
   
   .scroll-up:hover {

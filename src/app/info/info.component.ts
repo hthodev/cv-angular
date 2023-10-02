@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { info } from 'src/data/dataRender';
 
 @Component({
   selector: 'app-info',
@@ -17,14 +18,14 @@ export class InfoComponent {
   education: any;
 
   ngOnInit(): void {
-    this.position = 'Back-end Developer'
-    this.age = 22;
-    this.email = 'thienthotran.it@gmail.com';
-    this.subject = 'mailto:thienthotran.it@gmail.com?subject=Hi, Welcome to me!'
-    this.facebook = 'Thien Tho Tran';
-    this.linkFacebook = 'http://facebook.com/thientho.it'
-    this.phone = '+84775589593';
-    this.address = 'Lien Chieu - Da Nang - Quang Nam';
-    this.education = 'Su Pham University - Da Nang University'
+    this.position = info.position;
+    this.age = info.age;
+    this.email = info.email;
+    this.subject = info.subject;
+    this.facebook = info.facebook;
+    this.linkFacebook = info.linkFacebook;
+    this.phone = info.phone;
+    this.address = info.address;
+    this.education = info.education;
   }
 }

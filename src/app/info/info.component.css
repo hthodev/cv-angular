@@ -11,3 +11,22 @@
   justify-content: center;
   padding-top: 20px;
 }
+
+@media screen and (max-width: 414px) {  
+  .right-title {
+    min-width: 60%;
+  }
+  .left-title {
+    width: 70%;
+  }
+}
+
+.in-line {
+  display: inline-flex;
+}
+.left-title {
+  width: 40%;
+}
+.right-title {
+  width: 60%;
+}

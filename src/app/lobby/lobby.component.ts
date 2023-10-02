@@ -10,7 +10,5 @@ export class LobbyComponent implements OnInit {
   description: any;
 
   ngOnInit(): void {
-    this.fullName = "Tran Huu Tho";
-    this.description = "Front-end Developer and Graphic Designer"
   }
 }
