@@ -26,6 +26,5 @@ export class InfoComponent {
     this.linkFacebook = info.linkFacebook;
     this.phone = info.phone;
     this.address = info.address;
-    this.education = info.education;
   }
 }
