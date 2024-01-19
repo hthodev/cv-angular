@@ -16,10 +16,12 @@ export class InfoComponent {
   phone: any;
   address: any;
   education: any;
+  myBirthday: any;
 
   ngOnInit(): void {
     this.position = info.position;
     this.age = info.age;
+    this.myBirthday = info.myBirthday;
     this.email = info.email;
     this.subject = info.subject;
     this.facebook = info.facebook;

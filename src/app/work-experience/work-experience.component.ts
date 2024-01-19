@@ -11,6 +11,6 @@ export class WorkExperienceComponent {
   workExperiences:any;
 
   ngOnInit() {
-    this.workExperiences = workExperiences
+    this.workExperiences = workExperiences    
   }
 }
