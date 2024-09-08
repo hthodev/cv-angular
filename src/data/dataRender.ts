@@ -3,25 +3,42 @@ import { replaceTagP } from "src/ultis/ultis"
 export const practicalProjects = replaceDataProject([
   {
     title: 'Trudi',
-    timeline: '03/2023 - present',
+    timeline: '05/2023 - 08/2024',
     company: 'NCC',
     contents: [
       {
         title: 'Contributor',
-        content: '- ~150 people'
+        content: '• ~150 people'
       },
       {
         title: 'Job position',
-        content: '- Back-end NodeJS'
+        content: '• Back-end NodeJS'
       },
       {
         title: 'Description',
-        content: `- This system manages lease property between landlords and tenants
-        \n - Through processing PMs can send mail, reiForm, and conversation in appMobile, desktop, website to notify PM's requests.`
+        content: `• This system manages lease property between landlords and tenants
+        \n • Through processing PMs can send mail, reiForm, and conversation in appMobile, desktop, website to notify PM's requests.`
       },
       {
         title: 'Technology',
-        content: `- Express, MicroService, Twilio, SendGrid, chatGPT,...`
+        content: `• Build and design systems and databases to manage people and properties
+                \n• Integrate with Google Gmail, Microsoft Outlook to receive new mail from webhooks
+                triggered from Gmail, Outlook
+                \n• Integrate with Facebook Messenger to receive new messages webhooks triggered from
+                Messenger
+                \n• Integrate with Twilio to receive new SMS from webhooks triggered from Twilio
+                \n• Build and develop video calling system
+                \n• Build and develop automatic voicemail call reply system Develop real-time chat feature
+                in a conversation
+                \n• Email notifications and push notifications to mobile apps, web browser, desktop apps
+                \n• Integrate 3rd party systems to sync data
+                Technology stack:
+                \n• Framework: ExpressJS, Angular, Ionic
+                \n• Postgres SQL, Redis
+                \n• Pattern: MVC
+                \n• ORM: Sequelize
+                \n• Cloud: AWS, lambda, etl, kafka, …
+                \n• Other technology: Auth0, Twilio, IMAP/SMTP, chatGPT, Sendgird, websocket, nodecron, node-apn, node-cache, firebase, …`
       }
     ]
   },
@@ -60,7 +77,7 @@ export const projectPersonals = replaceDataProject([
   }
 ])
 
-export const moreProjectPersonals = replaceTagP(`\n- In addition, there are other projects such as Schedule medical, Download Game Website, Payment Nodejs,... 
+export const moreProjectPersonals = replaceTagP(`\n• In addition, there are other projects such as Schedule medical, Download Game Website, Payment Nodejs,... 
 in my GitHub account at link: <a href="https://github.com/hthodev" target="_blank"> GitHub </a>`)
 
 
@@ -68,25 +85,26 @@ export const workExperiences = replaceDataExp([
   {
     skill: 'Specialized skill',
     contents: `
-    - Proficient JavaScript, TypeScript
-    \n- Deploy automation with CI/CD pipeline, microservice, have knowledge about AWS
-    \n- Integrate 3th System into webapp as Gmail, VNPay
-    \n- Login no password with passport, Auth0
-    \n- Backend with framework ExpressJS, NestJS
-    \n- ORM: Sequelize, Prisma,...
-    \n- Strong about SQL (Postgres, mySQL), noSQL (MongoDB)
-    \n- Knowledge about voicemail, SMS, send email with sendGird and Twilio
-    \n- Ability to self-study and self-search well
-    \n- Proficient management code with git (github, bitbucket)
-    \n- Working with Agent/Scrum
+    <b>Backend developer at NCC Company</b>
+      • Proficient in JavaScript and TypeScript language
+      • Experience working framework of Nodejs ExpressJS, have knowledge
+      framework NestJS
+      • Knowledge about integrate with Google, Facebook Messenger
+      • Knowledge of real-time processing on website with websocket
+      • Knowledge about Angular
+      • Knowledge about AWS as S3, EC2, Cloud9, Lambda, etl,…
+      • Experience working about SQL (Postgres, MySQL), NoSQL (Mongodb, Redis)
+      • Experience working ORM (Sequelize, TypeORM)
+      • Experience working real-time web application
+      • Experience working with AGILE/SCRUM process
     `
   },
   {
     skill: 'Soft Skill',
     contents: `
-    - Good ability to work independently and in group
-    \n- Able to read documents, ticket English
-    \n- Communicate well with people around you`
+    • Good ability to work independently and in group
+    \n• Able to read documents, ticket English
+    \n• Communicate well with people around you`
   }
 ])
 
@@ -95,16 +113,16 @@ export const awards = `
   `
 
 export const hobbies = replaceTagP(`
-  - Learn more new technologies.
-  \n- Playing table football
-  \n- Playing League of Legends
+  • Learn more new technologies.
+  \n• Playing table football
+  \n• Playing League of Legends
 `)
 
 export const summaries = replaceTagP(
   `
-  - Hi everyone, I'm back-end developer.
-  \n- My short-term goal is to become a Junior Developer and continue honing my technical skills.
-  \n- In the long run, I aspire to transition into a managerial role, enabling me to engage directly with clients on project discussions. Additionally, I have a strong desire to join an international team, fostering cross-cultural collaboration and expanding my horizons. My passion for coding, problem-solving abilities, and dedication to continuous learning drive me to pursue excellence in the field of software development. I look forward to embracing new challenges and opportunities in my journey toward professional growth and global collaboration.
+  • Hi everyone, I'm back-end developer.
+  \n• I am a problem-solver, learner and explorer of new technologies. Want to join a team of like-minded developers. Looking for a position in a company that offers challenging projects where performance is recognized and rewarded.
+  \n• In the long run, I aspire to transition into a managerial role, enabling me to engage directly with clients on project discussions. Additionally, I have a strong desire to join an international team, fostering cross-cultural collaboration and expanding my horizons. My passion for coding, problem-solving abilities, and dedication to continuous learning drive me to pursue excellence in the field of software development. I look forward to embracing new challenges and opportunities in my journey toward professional growth and global collaboration.
 `)
 
 const today = new Date();
@@ -122,11 +140,11 @@ export const info = {
   myBirthday: '06/03/2001',
   age,
   email: 'hthodev@gmail.com',
-  subject: 'mailto:hthodev@gmail.com?subject=Hi, Welcome to me!',
+  subject: 'mailto:htho.job@gmail.com?subject=Hi Tho,!',
   facebook: 'Huu Tho Tran',
   linkFacebook: 'http://facebook.com/thientho.it',
   phone: '+84775589593',
-  address: 'Quang Nam - Da Nang',
+  address: 'Tien Phuoc - Quang Nam',
 }
 
 function replaceDataProject(data: dataProjectReplace[]) {
